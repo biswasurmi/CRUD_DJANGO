@@ -4,8 +4,8 @@ This project is a simple **Student Management System** built using Django. It de
 
 ### Features
 
-- **Create:** Add new student records with details such as name, age, grade, etc.
-- **Read:** View all student records with the ability to search and filter.
+- **Create:** Add new student records with details.
+- **Read:** View all student records.
 - **Update:** Modify existing student details.
 - **Delete:** Remove student records from the system.
 - **SQLite3 Database:** All data is stored in a local SQLite3 database, making the application lightweight and easy to set up.
