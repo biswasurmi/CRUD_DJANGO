@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if messages %}
+        <div class="message-container">
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+<!-- Get modal -->
+{% include 'components/getModal.html' %}
+<!-- ADD Modal HTML -->
+
+{% include 'components/addModal.html' %}
+
+<!-- Edit Modal HTML -->
+ {% include 'components/editModal.html' %}
+
+<!-- Delete Modal HTML -->
+ {% include 'components/deleteModal.html' %}
+ 
+
+{% endblock %}
